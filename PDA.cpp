@@ -1,6 +1,3 @@
-// Author: Verneva Ziga
-
-
 #include <iostream>
 #include <string>
 #include <stack>
