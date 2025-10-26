@@ -17,8 +17,8 @@ The PDA handles the following characters:
 - Validates proper nesting of parentheses `()` and brackets `[]`.  
 - Uses a **stack** to track opening symbols.  
 - Implements **state transitions with enums and switch-case**.  
-- Accepts strings only if they follow the defined rules and end with `.`.
+- **Accepts strings only if they follow the defined rules and end with `.`.**
 
 ## Example
-- [coding] is accepted
-- ]coding[ is rejected
+- [coding]. is accepted
+- ]coding[. is rejected
